@@ -1,0 +1,81 @@
+body{
+    background-color: #D7D7D7;
+
+}
+
+.container{
+    width: 500px;
+    height: 830px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 500px;
+    /* background-color: #D7D7D7; */
+    /* background-color: #eeeee4; */
+    background-color: #FBE5C8;
+    box-shadow:inset 2px 3px 9px;
+}
+#value{
+    box-shadow:inset 2px -2px 5px black ;
+    width: 380px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 30px;
+    /* background-color: #595959;  */
+    background-color: #B6E5D8; 
+    font-size: 40px;
+    text-align: right;
+    color: black;
+    
+}
+input,button{
+    box-shadow: 4px 5px 9px ;
+    width: 60px;
+    height: 75px;
+    color: black;
+    /* background: #a19490; */
+    background: transparent;
+    border: 0px solid #fff;
+    border-radius: 35px;
+    padding: 26px;
+    margin: 5px 0 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button{
+    text-align: center;
+
+}
+h1{
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+#equal{
+    background-color: orangered;
+            cursor: pointer;
+}
+#prt{
+    width: 60px;
+    border-radius: 35px;
+    padding:20px;
+    background: #a19490;
+    font-size: 20px;
+    font-weight: bold;    
+    cursor: pointer;  
+}
+#clear{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+#brcket{
+    background-color: #9aede2;
+}
+#name{
+    width: 300px;
+    box-shadow: inset 5px 5px 10px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
